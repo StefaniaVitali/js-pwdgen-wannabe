@@ -1,3 +1,29 @@
+/* RESET RULES */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+a{
+    text-decoration: none;
+    color: currentColor;
+}
+
+ul, 
+ol, 
+menu{    
+    list-style: none;
+}
+
+img{
+    max-width: 100%;
+}
+
+/* GENERAL PAGE LAYOUT */
+
 body{
     background-color: rgb(43, 177, 152);
 }
@@ -6,3 +32,4 @@ h1{
   color:white;
   text-align: center;
 }
+
